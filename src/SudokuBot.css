@@ -1,0 +1,35 @@
+.root{
+  text-align: center;
+}
+.sudoku-grid{
+  display: inline-grid;
+  width:550px;
+  height:450px;
+  grid-template-columns: auto;
+  grid-row-gap: 10px;
+  padding-left: 30px;
+  overflow: hidden;
+}
+.row{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto ;
+}
+
+.cell{
+  width: 20px;
+  padding: 10px;
+  text-align: center;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 2px;
+}
+
+.button{
+  text-align: center;
+  color: white;
+  margin-left:20px;
+}
+
+.button-container{
+  padding-top:10px;
+}
